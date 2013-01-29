@@ -46,6 +46,6 @@ pv<-pv+xlab("Time (ms)")+opts(axis.text.x = theme_text(size=5), axis.title.x=the
 pv<-pv+opts(plot.margin = unit(c(0,0,-0.25,-0.15), "cm"))
 
 
-pdf("/Users/dleen/Dropbox/Research/Simple_HOC_draft/R/fig_1/fig_1.pdf",width=3.375,height=1.2)
+pdf("/Users/dleen/Dropbox/Research/Simple_HOC_draft/R/fig_1/fig_1_newest.pdf",width=3.375,height=1.2)
 print(pv)
 dev.off()
