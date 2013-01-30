@@ -1,5 +1,4 @@
 figure(1)
-figure(1)
 title('Correlation coeff    \rho = 0.05','fontsize',15)
 p11=semilogy(0:N,P_DG_mean_05,'color','r');
 hold on

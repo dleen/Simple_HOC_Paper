@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.7)  29 JAN 2013 13:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.7)  29 JAN 2013 19:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -364,20 +364,13 @@ ne 99.
 Package natbib Warning: Citation `Macke:2011gw' on page 1 undefined on input li
 ne 126.
 
-<../R/fig_1/fig_1_copy_2.pdf, id=1, 487.8225pt x 199.1691pt>
-File: ../R/fig_1/fig_1_copy_2.pdf Graphic file (type pdf)
+<../R/fig_1/fig_1_final.pdf, id=1, 487.8225pt x 199.1691pt>
+File: ../R/fig_1/fig_1_final.pdf Graphic file (type pdf)
 
-<use ../R/fig_1/fig_1_copy_2.pdf>
-Package pdftex.def Info: ../R/fig_1/fig_1_copy_2.pdf used on input line 133.
+<use ../R/fig_1/fig_1_final.pdf>
+Package pdftex.def Info: ../R/fig_1/fig_1_final.pdf used on input line 133.
 (pdftex.def)             Requested size: 487.8213pt x 199.1686pt.
-
-
-LaTeX Warning: Reference `eifsde' on page 1 undefined on input line 134.
-
-
-LaTeX Warning: Reference `eifsde' on page 1 undefined on input line 134.
-
-[1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+ [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 2261) in paragraph at lines 147--148
 []\OT1/cmr/m/n/10 The to-tal in-put cur-rent to the neu-ron is used
  []
@@ -405,7 +398,7 @@ Underfull \hbox (badness 1184) in paragraph at lines 147--148
 ise am-pli-tude is $\OML/cmm/m/it/10 ^^[[]$\OT1/cmr/m/n/10 .
  []
 
-[2 <../R/fig_1/fig_1_copy_2.pdf>]
+[2 <../R/fig_1/fig_1_final.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 176--177
  \OT1/cmr/m/it/10 The Di-chotomized Gaus-sian model.[] \OT1/cmr/m/n/10 The Di-
  []
@@ -466,19 +459,15 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
  5039 strings out of 493625
- 65573 string characters out of 3143270
- 167775 words of memory out of 3000000
+ 65568 string characters out of 3143270
+ 167864 words of memory out of 3000000
  8249 multiletter control sequences out of 15000+200000
  16807 words of font info for 62 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 38i,12n,35p,1649b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,35p,1520b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -498,7 +487,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2011/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2011/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on apssamp.pdf (5 pages, 1237776 bytes).
+Output written on apssamp.pdf (5 pages, 1237575 bytes).
 PDF statistics:
  2010 PDF objects out of 2073 (max. 8388607)
  1034 compressed objects within 11 object streams

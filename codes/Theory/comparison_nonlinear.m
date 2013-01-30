@@ -1,3 +1,8 @@
+% 
+%
+%
+%
+
 clear all;
 close all;
 
@@ -24,12 +29,12 @@ deltat=3; % EIF "AP sharpness"
 v_soft=-53; % EIF soft threshold
 v_reset=-60; % Reset value
 v_th=20; % EIF threshold
-sigma=4.925;
+sigma=4.925; % variance
 E1=sigma*sqrt(tau_m*lambda_LF); % Perturbation current
 
-sigmap=sigma/sqrt(2); % Value of sigma at which to...
+sigmap=sigma/sqrt(2); % Value of sigma at which to
 % calculate the stationary firing rate
-sigma_pert=sigma*sqrt(1-lambda_LF)/sqrt(2); % Value of sigma at which to...
+sigma_pert=sigma*sqrt(1-lambda_LF)/sqrt(2); % Value of sigma at which to
 % calculate the linear filter.
 
 Tmax = 200; % Max time lag for filter (ms)
@@ -44,8 +49,9 @@ w = -wmax:dw:(wmax-dw); % List of frequencies
 w(abs(w)<1e-6) = 1e-6;
 bins = length(w);
 
-%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Richardson paper functions %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Calculate steady state firing rate
 r0=calc_Rate_cuEIF(E0,sigmap,tau_ref,...
@@ -61,7 +67,6 @@ A_t=transpose(A_t);
 A_t = fliplr(A_t);
 
 %%
-%clf
 warning('off')
 
 bin_size = 10; 
@@ -94,6 +99,14 @@ nonlinear_full = nonlinear;
 E_span = linspace(-200/1000,200/1000,n_max); % 200Hz upper and lower...
                                    % limits for non-linearity.
 for i=1:n_max
+    % The difference between these two is the first uses
+    % D0 in the expression: E0 + E_span/D0 where D0 is 
+    % a constant calculated from the filter. See Ostojik
+    % for more details.
+    % The second one uses the more complicated form also found
+    % in Ostojik. It uses r0_prime_E0 instead of D0 in the 
+    % denominator. The difference is that r0_prime is calculated
+    % using the steady state firing rate function above.
     nonlinear(i) = calc_Rate_cuEIF(E0+E_span(i)/D0,...
         sigmap,tau_ref,v_reset,v_soft,v_th,deltat,tau_m,-100,0.01);
     nonlinear_full(i) = calc_Rate_cuEIF(E0+E_span(i)/r0_prime_E0,...
@@ -116,7 +129,7 @@ r_temp = r_nl_full;
 
 for i=1:(num_of_bins-floor(bin_size/dt))
     SS(i) =...
-        sum(r_temp(((i-1)*floor(bin_size/dt)+1):(i*floor(bin_size/dt))))*dt;
+      sum(r_temp(((i-1)*floor(bin_size/dt)+1):(i*floor(bin_size/dt))))*dt;
 end
 
 s_dg = -3:0.001:3;
@@ -128,7 +141,6 @@ plf_s = -1:0.001:1;
 
 [plf,plf_s] = ksdensity(SS,plf_s);
 
-%[bandwidth,plf,plf_s,cdf]=kde(SS,2^11,-1,1);
 
 %plf_s = plf_s';
 %plf = abs(plf);
