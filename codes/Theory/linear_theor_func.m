@@ -1,5 +1,10 @@
 function [P_LF] =...
     linear_theor_func(gamma,lambda,sigma,N,bin_size)
+%
+% This is a function which returns the probability
+% P(k) of k spikes occuring using the linear filter
+% to generate the spikes.
+%
 
 %%%%%%%%%%%%%%
 % LIF values %
