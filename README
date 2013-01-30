@@ -1,0 +1,25 @@
+This is the code used to write the paper:
+
+"A simple mechanism for higher order correlations"
+
+The folders are:
+
+codes: contains all the matlab and c++ code used to run the models
+	- DG
+	- EIF
+	- Figure_code
+	- Linear_filter
+	- Theory
+
+LaTeX: contains the tex files for the paper itself
+
+Poster: contains the illustrator and pdfs for a poster presented on this work
+
+R: contains the scripts used to generate the figures
+	- fig_1
+	- fig_2
+	- fig_3
+	- fig_4
+
+Raw_Figures: contains a whole bunch of eps/pdf files analysing the data
+	across a large range of values
