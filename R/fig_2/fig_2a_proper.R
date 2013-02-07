@@ -1,37 +1,42 @@
-library(R.matlab)
-library(ggplot2)
-library(scales)
-library(grid)
+library(R.matlab) # Import matlab matrix files
+library(ggplot2) # Nice plotting
+library(grid) # Multiple plots on one graphic
 
-theme_set(theme_grey(7))
-fig_2a <- readMat("/Users/dleen/Dropbox/Research/Simple_HOC_draft/codes/Figure_code/fig_2a_R_short.mat")
+theme_set(theme_bw(7))
+fig_2a <- readMat(paste("/Users/dleen/Dropbox/Research/",
+                        "Simple_HOC_draft/codes/Figure_code/",
+                        "fig_2a/fig_2a_R.mat", sep=""))
 
 PP <- fig_2a$fig.2a.R
 
+# Model keeps track of which model we're using
+# EIF = 1
+# Ising = 2
 Model <- PP[, 4]
+# Number of neurons
 Num <- PP[, 2]
 Num[Num == 8] <- "8  Neurons"
 Num[Num == 32] <- "32  Neurons"
 Num[Num == 64] <- "64  Neurons"
 Num[Num == 100] <- "100  Neurons"
 
-#Model[Model==1] <- "EIF"
-#Model[Model==2] <- "Ising"
-
+# Number of neurons firing simulataneously
 N_list <- PP[, 3]
+# Probability dist of number of neurons firing simul
 Prob <- PP[, 1]
 Prob[Prob < 1e-08] <- 1e-09
 
 fig_data_orig <- data.frame(Prob, Num, N_list, Model)
-#fig_data <- subset(fig_data_orig,Num!="100  Neurons")
 fig_data <- fig_data_orig
 
-fig_data$Num <- ordered(fig_data$Num, levels = rev(c("100  Neurons", "64  Neurons", "32  Neurons", "8  Neurons")))
+fig_data$Num <- ordered(fig_data$Num, levels = rev(c("100  Neurons",
+                                                     "64  Neurons",
+                                                     "32  Neurons",
+                                                     "8  Neurons")))
 
 p1 <- ggplot(fig_data, aes(N_list, Prob, fill = Model))
 p1 <- p1 + geom_bar(stat = "identity", position = "identity", alpha = 0.75)
 p1 <- p1 + scale_fill_continuous("", breaks = c(1, 2), labels = c("EIF", "Ising"))
-#p1 <- p1 + scale_fill_brewer(palette="Dark2")
 p1 <- p1 + facet_wrap(~Num, scales = "free", ncol = 2)
 p1 <- p1 + xlab("Population spike count") + ylab("Probability")
 p1 <- p1 + opts(panel.background = theme_rect(colour = NA)) + opts(panel.grid.minor = theme_blank()) + opts(panel.grid.major = theme_blank())
@@ -180,7 +185,7 @@ subvp <- viewport(width = 0.3, height = 0.12, x = 0.83, y = 0.55)
 subvp_1 <- viewport(width = 0.3, height = 0.12, x = 0.34, y = 0.55)
 subvp_2 <- viewport(width = 0.3, height = 0.12, x = 0.83, y = 0.88)
 
-pdf("/Users/dleen/Dropbox/Research/Simple_HOC_draft/R/fig_2/fig_2a_test.pdf", width = 3.375, height = 5)
+pdf("/Users/dleen/Dropbox/Research/Simple_HOC_draft/R/fig_2/fig_2a_test2.pdf", width = 3.375, height = 5)
 grid.newpage()
 
 pushViewport(viewport(layout = grid.layout(3, 2)))

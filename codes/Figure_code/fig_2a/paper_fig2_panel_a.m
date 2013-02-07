@@ -34,7 +34,7 @@ for N=N_range
     % Import the data to be used.
     % Data file has the form:
     % p(x_0) p(x_1) ... p(x_(N-1)) mu rho
-    M{1} = importdata(strcat('./numerical_data/fig2mu/fig_2mu_',...
+    M{1} = importdata(strcat('../numerical_data/fig2mu/fig_2mu_',...
         int2str(N),'_',num2str(0.1),'.dat'),' ');
     % PP contains the probability distributions.
     % Each row represents a single run at mean mu and corr rho.
