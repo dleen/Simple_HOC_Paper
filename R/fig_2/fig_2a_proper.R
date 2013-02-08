@@ -34,9 +34,10 @@ fig_data$Num <- ordered(fig_data$Num, levels = rev(c("100  Neurons",
                                                      "32  Neurons",
                                                      "8  Neurons")))
 
-p1 <- ggplot(fig_data, aes(N_list, Prob, fill = Model))
+p1 <- ggplot(fig_data, aes(N_list, Prob, fill = factor(Model)))
 p1 <- p1 + geom_bar(stat = "identity", position = "identity", alpha = 0.75)
-p1 <- p1 + scale_fill_continuous("", breaks = c(1, 2), labels = c("EIF", "Ising"))
+p1 <- p1 + scale_fill_manual("Model", values = c("#132B43","#55B1F7"), labels = c("EIF", "Ising"))
+
 p1 <- p1 + facet_wrap(~Num, scales = "free", ncol = 2)
 p1 <- p1 + xlab("Population spike count") + ylab("Probability")
 p1 <- p1 + theme(panel.background = element_rect(colour = NA)) + 
@@ -142,8 +143,9 @@ p2_2 <- p2_2 + theme(plot.margin = unit(c(0,0,0,0), "cm"))
 ###############
 
 fig_2b <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/",
-                        "fig_2b_R_logN_DJS.mat", sep=""))
+                        "Simple_HOC_draft/codes/Figure_code/fig_2b/",
+                        "fig_2b_R.mat", sep=""))
+#"fig_2b_R_logN_DJS.mat", sep=""))
 
 PP_2b <- fig_2b$fig.2b.R
 
@@ -260,7 +262,7 @@ subvp_2 <- viewport(width = 0.3, height = 0.12, x = 0.83, y = 0.88)
 
 pdf(paste("/Users/dleen/Dropbox/Research/",
           "Simple_HOC_draft/R/",
-          "fig_2/fig_2a_test2.pdf", sep=""), width = 3.375, height = 5)
+          "fig_2/fig_2a_test3.pdf", sep=""), width = 3.375, height = 5)
 
 grid.newpage()
 
