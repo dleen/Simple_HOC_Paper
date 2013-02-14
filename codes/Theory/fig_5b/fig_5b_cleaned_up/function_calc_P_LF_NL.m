@@ -1,16 +1,14 @@
-function [P_LF, X] = function_calc_P_LF_NL(lambda_LF)
+function [P_LF, X] = function_calc_P_LF_NL(lambda_LF, Tspan)
 % 
 %
 %
 %
 
-
 %%%%%%%%%%%%%%
 % LIF values %
 %%%%%%%%%%%%%%
 gamma=-60.31;
-%gamma=-60.78;
-%gamma=-59.05;
+
 E0=gamma; % DC current
 tau_m=5; % membrane time constant
 tau_ref=3; % refractory period
@@ -55,14 +53,21 @@ Ahat=calc_Susc_cuEIF(w,E0,sigma_pert,tau_ref,...
 A_t=transpose(A_t);
 A_t = fliplr(A_t);
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of Richardson functions %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Set up the bins
+% and the common input signal.
 bin_size = 10; 
-
-%%%%
 num_of_bins=200000; 
 L=num_of_bins*bin_size/dt;
 I_common = E1*randn(L,1)/sqrt(dt);
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Static nonlinearity. Ostoijic %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Calculate the static non-linearity. See Ostoijic for details.
 j=1;
 step_size=0.051;
@@ -98,6 +103,10 @@ for i=1:n_max
         sigmap,tau_ref,v_reset,v_soft,v_th,deltat,tau_m,-100,0.01);
 end
 
+%%%%%%%%%%%%%%%%%%%
+% End of Ostoijic %
+%%%%%%%%%%%%%%%%%%%
+
 % Calculate firing rates using the linear filter applied to common
 % input. The non-linear firing rate is calculated by interpolating the
 % static non-linearity.
@@ -105,15 +114,17 @@ r_est = r0 + conv(I_common,real(A_t),'same')*dt; % Linear firing rate.
 r_nl = interp1(E_span,nonlinear,r_est,'spline'); % LNL Cascade.
 r_nl_full = interp1(E_span,nonlinear_full,r_est,'spline'); % LNL Cascade.
 
-
 r_to_use = r_nl_full;
 
+
+% Function from the paper
 for i=1:(num_of_bins-floor(bin_size/dt))
     SS(i) =...
       sum(r_to_use(((i-1)*floor(bin_size/dt)+1):(i*floor(bin_size/dt))))*dt;
 end
 
 
-plf_s = -1:0.001:1;
+plf_s = -2:0.001:2;
 
-[P_LF, X] = ksdensity(SS,plf_s);
+% [P_LF, X] = ksdensity(SS,plf_s);
+[P_LF, X] = ksdensity(SS, Tspan);
