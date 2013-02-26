@@ -1,3 +1,5 @@
 *.mat
 
 *.dat
+
+*.Rhistory
