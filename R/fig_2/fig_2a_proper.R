@@ -144,7 +144,7 @@ p2_2 <- p2_2 + theme(plot.margin = unit(c(0,0,0,0), "cm"))
 
 fig_2b <- readMat(paste("/Users/dleen/Dropbox/Research/",
                         "Simple_HOC_draft/codes/Figure_code/fig_2b/",
-                        "fig_2b_R.mat", sep=""))
+                        "fig_2b_R_NEW.mat", sep=""))
 #"fig_2b_R_logN_DJS.mat", sep=""))
 
 PP_2b <- fig_2b$fig.2b.R
@@ -262,7 +262,7 @@ subvp_2 <- viewport(width = 0.3, height = 0.12, x = 0.83, y = 0.88)
 
 pdf(paste("/Users/dleen/Dropbox/Research/",
           "Simple_HOC_draft/R/",
-          "fig_2/fig_2a_test3.pdf", sep=""), width = 3.375, height = 5)
+          "fig_2/fig_2a_NEW.pdf", sep=""), width = 3.375, height = 5)
 
 grid.newpage()
 
