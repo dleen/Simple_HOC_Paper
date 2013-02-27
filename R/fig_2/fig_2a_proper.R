@@ -4,7 +4,7 @@ library(grid) # Multiple plots on one graphic
 
 theme_set(theme_bw(7))
 fig_2a <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/",
+                        "Simple_HOC_draft/codes/Figure_code/figures_complete/",
                         "fig_2a/fig_2a_R.mat", sep=""))
 
 PP <- fig_2a$fig.2a.R
@@ -143,7 +143,7 @@ p2_2 <- p2_2 + theme(plot.margin = unit(c(0,0,0,0), "cm"))
 ###############
 
 fig_2b <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/fig_2b/",
+                        "Simple_HOC_draft/codes/Figure_code/figures_complete/fig_2b/",
                         "fig_2b_R_NEW.mat", sep=""))
 #"fig_2b_R_logN_DJS.mat", sep=""))
 
@@ -200,9 +200,13 @@ p2b <- p2b + theme(axis.title.x = element_text(size = 8, vjust=0.3))
 ###############
 ###############
 
+# fig_2c <- readMat(paste("/Users/dleen/Dropbox/Research/",
+#                         "Simple_HOC_draft/codes/Figure_code/",
+#                         "fig_2c_R_logN_DJS.mat", sep=""))
+
 fig_2c <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/",
-                        "fig_2c_R_logN_DJS.mat", sep=""))
+                        "Simple_HOC_draft/codes/Figure_code/figures_complete/fig_2c/",
+                        "fig_2c_R_NEW.mat", sep=""))
 
 PP_2c <- fig_2c$fig.2c.R
 
@@ -262,7 +266,7 @@ subvp_2 <- viewport(width = 0.3, height = 0.12, x = 0.83, y = 0.88)
 
 pdf(paste("/Users/dleen/Dropbox/Research/",
           "Simple_HOC_draft/R/",
-          "fig_2/fig_2a_NEW.pdf", sep=""), width = 3.375, height = 5)
+          "fig_2/fig_2a_NEW_NEW.pdf", sep=""), width = 3.375, height = 5)
 
 grid.newpage()
 

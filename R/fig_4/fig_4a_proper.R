@@ -4,10 +4,12 @@ library(scales)
 library(grid) # For plotting multiple plots in a grid
 
 theme_set(theme_bw(7))
+# fig_4a <- readMat(paste("/Users/dleen/Dropbox/Research/",
+#                         "Simple_HOC_draft/codes/Figure_code/",
+#                         "fig_3a_R.mat", sep=""))
 fig_4a <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/",
-                        "fig_3a_R.mat", sep=""))
-
+                        "Simple_HOC_draft/codes/Figure_code/figures_complete/fig_3a/",
+                        "fig_3a_R_NEW.mat", sep=""))
 PP <- fig_4a$fig.3a.R
 
 Model <- PP[, 4]
@@ -244,7 +246,7 @@ subvp_1 <- viewport(width = 0.3, height = 0.12, x = 0.34, y = 0.55)
 subvp_2 <- viewport(width = 0.3, height = 0.12, x = 0.83, y = 0.88)
 
 pdf(paste("/Users/dleen/Dropbox/Research/",
-          "Simple_HOC_draft/R/fig_4/fig_4a_new.pdf", sep=""), width = 3.375, height = 5)
+          "Simple_HOC_draft/R/fig_4/fig_4a_new_new.pdf", sep=""), width = 3.375, height = 5)
 
 grid.newpage()
 grid.text(paste("margin"))
