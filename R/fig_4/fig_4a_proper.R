@@ -134,9 +134,12 @@ p2_2 <- p2_2 + theme(plot.margin = unit(c(0,0,0,0), "cm"))
 ###############
 ###############
 
+# fig_4b <- readMat(paste("/Users/dleen/Dropbox/Research/",
+#                         "Simple_HOC_draft/codes/Figure_code/",
+#                         "fig_3b_R_logN_DJS.mat", sep=""))
 fig_4b <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/",
-                        "fig_3b_R_logN_DJS.mat", sep=""))
+                        "Simple_HOC_draft/codes/Figure_code/figures_complete/fig_3b/",
+                        "fig_3b_R_NEW.mat", sep=""))
 
 PP_2b <- fig_4b$fig.3b.R
 
@@ -188,9 +191,12 @@ p2b <- p2b + theme(axis.title.x = element_text(size = 8, vjust=0.3))
 ###############
 ###############
 
+# fig_3c <- readMat(paste("/Users/dleen/Dropbox/Research/",
+#                         "Simple_HOC_draft/codes/Figure_code/",
+#                         "fig_3c_R_logN_DJS.mat", sep=""))
 fig_3c <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/",
-                        "fig_3c_R_logN_DJS.mat", sep=""))
+                        "Simple_HOC_draft/codes/Figure_code/figures_complete/fig_3c/",
+                        "fig_3c_R_NEW.mat", sep=""))
 
 PP_2c <- fig_3c$fig.3c.R
 
@@ -246,7 +252,7 @@ subvp_1 <- viewport(width = 0.3, height = 0.12, x = 0.34, y = 0.55)
 subvp_2 <- viewport(width = 0.3, height = 0.12, x = 0.83, y = 0.88)
 
 pdf(paste("/Users/dleen/Dropbox/Research/",
-          "Simple_HOC_draft/R/fig_4/fig_4a_new_new.pdf", sep=""), width = 3.375, height = 5)
+          "Simple_HOC_draft/R/fig_4/fig_4a_new_new_new_new.pdf", sep=""), width = 3.375, height = 5)
 
 grid.newpage()
 grid.text(paste("margin"))
