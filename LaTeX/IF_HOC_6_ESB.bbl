@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{Amarietal03}
+Shun-Ichi Amari, Hiroyuki Nakahara, Si~Wu, and Yutaka Sakai.
+\newblock Synchronous firing and higher-order interactions in neuron pool.
+\newblock {\em Neural Comp.}, 15(1):127--42, 2003.
+
+\bibitem{macke11}
+Jakob~H Macke, Manfred Opper, and Matthias Bethge.
+\newblock {Common Input Explains Higher-Order Correlations and Entropy in a
+  Simple Model of Neural Population Activity}.
+\newblock {\em Physical Review Letters}, 106(20):208102, May 2011.
+
+\bibitem{Yu:2011ii}
+Shan Yu, Hongdian Yang, Hiroyuki Nakahara, Gustavo~S Santos, Danko Nikoli{\'c},
+  and Dietmar Plenz.
+\newblock {Higher-order interactions characterized in cortical activity.}
+\newblock {\em Journal of Neuroscience}, 31(48):17514--17526, November 2011.
+
+\end{thebibliography}
