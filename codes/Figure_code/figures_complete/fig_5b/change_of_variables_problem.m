@@ -66,7 +66,7 @@ DG = 0.5*(1+DG_erf);
 %
 % Plot results
 %
-
+%%
 figure(3)
 title('Comparing L(s) functions','fontsize',16)
 % Plot support
@@ -77,7 +77,7 @@ p1=plot(S_LF,LTildeS,'r');
 % Plot DG
 plot(S_DG,DG,'b')
 hold off
-
+%%
 % %%
 % % Plot comparison
 figure(1)
