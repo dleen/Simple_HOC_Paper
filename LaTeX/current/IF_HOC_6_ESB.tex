@@ -98,7 +98,7 @@ Here we show that a population of exponential integrate-and-fire (EIF) neurons r
 
 \begin{itemize}
 \item Check usage of covariance vs. correlation (in many places, should it be the latter?)
-\item In intro ... work in notion that these (noise) correlations come from some network mechanism.  A typical one is common input.  Is that mech consistent with pwise or HOC?  Answer HOCC ... 
+\item In intro ... work in notion that these (noise) correlations come from some network mechanism.  A typical one is common input.  Is that mech consistent with pairwise or HOC?  Answer HOCC ... 
 \end{itemize}
 
 %\tableofcontents
@@ -112,17 +112,6 @@ This paper seeks to elucidate one key mechanism that can determine the pairwise 
 
 A natural question is whether more realistic, dynamical mechanisms of spike generation -- beyond ``static" step function transformations -- will also serve to produce strong higher-order correlations based on common input processes.  
 
-%work by Macke et.~al~\cite{macke11,Amarietal03} shows that common input gives rise to higher-order correlations in the Dichotomized Gaussian neuron model. Motivated by this finding we investigate whether the same holds true when one considers biologically plausible neuron models such as integrate-and-fire neurons. Prove that common input to EIF model, a biologically plausible model of a neuron, cannot be described by the pairwise maximum entropy (Ising) model i.e.~a model only taking into account first and second moments. That common input into the EIF is an easy way of realizing higher-order correlations.
-
-%\cite{Yu:2011ii} treats in context of data.  \cite{Ganmor:2011ct} also finds HOC in data. \cite{tr08} argue common input is source of noise corrs.
-  
-%Propose tractable reduction of EIF: linear model. This linear model can also capture higher-order correlations. So we can suggest linear point process models for higher-order correlations. Demonstrate effectiveness versus PME model.
-
-%Can we show some study in the opposite sense: that max ent works for larger populations. Ganmor? Yu's suggestion.
-%Values of correlation coefficients in literature?
-%\colorbox{BrickRed}{\color{White}{Intentionally incomplete!}}
-%\colorbox{BrickRed}{\color{White}{Will finish once main text is vetted.}}
-
 \bigskip
 
 \noindent \paragraph*{An exponential integrate-and-fire population with common inputs:}
@@ -133,7 +122,7 @@ A ubiquitous situation in neural circuitry is a cell population receiving common
 \tau_m V_i^\prime &= -V_i +\psi(V_i)+I_i(t),\\
 I_i(t) &= \gamma+\sqrt{\sigma^2\tau_m}\big[\sqrt{1-\lambda}\xi_i(t)+\sqrt{\lambda}\xi_c(t)\big] \nonumber,
 \end{align}
-where: $\psi(V_i) =\Delta_T \exp{\left((V_i - V_S)/\Delta_T\right)}$ for the EIF neuron \Ecomment{cite Fourcard-Troume and Abbott-Dayan book}.  See figure \ref{schematic} caption for parameter details.
+where: $\psi(V_i) =\Delta_T \exp{\left((V_i - V_S)/\Delta_T\right)}$ for the EIF neuron \cite{Fourcard-Troume, Abbott-Dayan}. See figure \ref{schematic} caption for parameter details.
 
 %%%%%%%%%%%%%%%%%%
 \begin{figure}[t!]
@@ -160,7 +149,7 @@ See figure 2a.
 
 %%%%%%%%%%%%%%
 \begin{figure}[h]
-\includegraphics{figures/fig_2a_test.pdf}
+\includegraphics{figures/fig_2a.pdf}
 \caption{\label{fig:eifising} %Correlations in the exponential integrate-and-fire (EIF) model are not well described by a pairwise maximum entropy model. 
 (a) Population spike-count distributions for the EIF model and its second-order approximation for $8, 32, 64, \text{and } 100$ neurons for $\mu = 0.1$ and $\rho = 0.1$. The distributions are similar for smaller populations and different for large populations. Inset: the same distributions on a log-linear scale. (b) The Jensen-Shannon (JS) divergence between the EIF and the pairwise maximum entropy (PME) model .  We normalized by the $log(N)$, which is a natural growth rate of this measure. (Left) JS divergence for a constant value of $\mu = 0.1$ and different values of $\rho$, and (Right) for constant value of $\rho = 0.1$ and different values of $\mu$ as the population size increases. The JS-divergence grows with increasing correlation $\rho$ and decreasing mean firing rate $\mu$.}
 \end{figure}
@@ -182,21 +171,21 @@ We quantify the difference between the PME and EIF population output distributio
 
 %%%%%%%%%%%%%%%%%%
 \begin{figure}[t!]
-\includegraphics{figures/LNL_schematic}
+\includegraphics{figures/fig_3a}
 \caption{\label{fig:schematic2}  (a) The linear filter $A(t)$ and static non-linearity for different values of the correlation coefficient $\rho$. The filter receives a noise amplitude of $\sigma\sqrt{1-\lambda}$. The static-nonlinearity receives a noise amplitude of $\sigma$. (c) The static non-linearity applied to the linear estimate of the firing rate, for $\mu = 0.1$, $\rho = 0.1$. The non-linearity increases the firing rate magnitude and rectifies negative firing rates. The firing rate is used to generate spikes, treating the spike output from repeated presentations of the firing rate as coming from a population of uncoupled neurons to arrive at a population spike count such as in (b).  \Ecomment{In b, add a line for the ``actual" firing rate of the EIF cells. As in Fig. 1 of ostojic paper}}
 \end{figure}
 %%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%
 \begin{figure}[h]
-\includegraphics{../../R/fig_3/fig_3a_test.pdf}
+\includegraphics{figures/fig_4a}
 \caption{\label{fig:eiffilter} The linear-nonlinear cascade gives a good approximation of the EIF population distributions. (a) A comparison between the population spike-count distributions for the EIF model and the linear-nonlinear cascade approximation for $8, 32, 64, \text{and } 100$ neurons for $\mu = 0.1$ and $\rho = 0.1$. The LNL model greatly overestimates the zero population spike count probabilities. One reason is that there is no refractory period. The LNL model underestimates the tails of the probability distributions. This is because of the double counting, when truncating spikes in a bin the larger spike counts are penalized to a greater extent. Inset: the same distributions on a log-linear scale. (b) JS-divergence, order of magnitude smaller than PME, possibly converges to some limit? The order of the mean firing rates is reversed when compared to the PME because the LNL cascade gives a better approximation at higher firing rates $\mu$, less problems with negative firing rates...}
 \end{figure}
 %%%%%%%%%%%%%%%
 
 
 \begin{figure*}
-\includegraphics{../../R/fig_4/fig_4.pdf}
+\includegraphics{figures/fig_5}
 \caption{\label{fig:lnldgcomp} (a) The Dichotomized Gaussian (DG) model gives an excellent description of the exponential integrate-and-fire (EIF) population spike count probability distributions across a range of correlation coefficient values. The two models are plotted on top of one another and appear as a single curve for each value of $\rho$. (b) Comparing the $L(s)$ function for the DG and the $\tilde{L}(s)$ function for the EIF (after transforming from the EIF probability density function for the variable $\mathcal{S}$ to the DG variable $s$. The functions agree to an extent over the pdf $\phi_DG$ of the DG model. The DG function $L(s)$ tends to $0$ for negative values of $s$ where the LNL function $\tilde{L}(s)$ tends to a finite non-zero value. This agrees with the probability distributions in the previous model where the LNL cascade is less accurate at estimating the $0$-population spike count and large population spike count probabilities. (c) The heat capacity increases linearly for the LNL-cascade, the EIF and the DG. For the case of the LNL cascade the heat capacity increases at a slightly greater rate than the EIF/DG which overlap. The Ising model saturates for a population of approximately $N=30$ neurons.}
 \end{figure*}
 

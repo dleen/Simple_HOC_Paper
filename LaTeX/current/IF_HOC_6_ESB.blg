@@ -9,12 +9,12 @@ White space in argument---line 3 of file IF_HOC_6_ESB.aux
  : \citation{pillow,ganmor,kass
  :                              review,joel review}
 I'm skipping whatever remains of this command
-White space in argument---line 14 of file IF_HOC_6_ESB.aux
+White space in argument---line 15 of file IF_HOC_6_ESB.aux
  : \citation{Macke,cf.
  :                     Roudi}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Yu and yu
----line 24 of file IF_HOC_6_ESB.aux
+---line 27 of file IF_HOC_6_ESB.aux
  : \citation{Yu
  :             }
 I'm skipping whatever remains of this command
@@ -32,6 +32,8 @@ Warning--I didn't find a database entry for "yu"
 Warning--I didn't find a database entry for "shadnew08"
 Warning--I didn't find a database entry for "binpowers"
 Warning--I didn't find a database entry for "tr08"
+Warning--I didn't find a database entry for "Fourcard-Troume"
+Warning--I didn't find a database entry for "Abbott-Dayan"
 Warning--I didn't find a database entry for "Macke"
 Warning--I didn't find a database entry for "Barreiro"
 Warning--I didn't find a database entry for "Panzeri"
@@ -39,7 +41,7 @@ Warning--I didn't find a database entry for "Amari"
 Warning--I didn't find a database entry for "Abb-Dayan"
 You've used 2 entries,
             2118 wiz_defined-function locations,
-            535 strings with 4541 characters,
+            539 strings with 4595 characters,
 and the built_in function-call counts, 750 in all, are:
 = -- 70
 > -- 41

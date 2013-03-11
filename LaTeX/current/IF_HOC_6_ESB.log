@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.7)  6 MAR 2013 14:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.7)  11 MAR 2013 15:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -394,54 +394,62 @@ Package natbib Warning: Citation `binpowers' on page 1 undefined on input line
 Package natbib Warning: Citation `tr08' on page 1 undefined on input line 111.
 
 
-LaTeX Warning: Reference `schematic' on page 1 undefined on input line 136.
+Package natbib Warning: Citation `Fourcard-Troume' on page 1 undefined on input
+ line 125.
+
+
+Package natbib Warning: Citation `Abbott-Dayan' on page 1 undefined on input li
+ne 125.
+
+
+LaTeX Warning: Reference `schematic' on page 1 undefined on input line 125.
 
 <figures/EIF_schematic.pdf, id=1, 487.8225pt x 199.1691pt>
 File: figures/EIF_schematic.pdf Graphic file (type pdf)
 
 <use figures/EIF_schematic.pdf>
-Package pdftex.def Info: figures/EIF_schematic.pdf used on input line 140.
+Package pdftex.def Info: figures/EIF_schematic.pdf used on input line 129.
 (pdftex.def)             Requested size: 487.8213pt x 199.1686pt.
 
-Overfull \hbox (241.8213pt too wide) in paragraph at lines 140--141
+Overfull \hbox (241.8213pt too wide) in paragraph at lines 129--130
  [][] 
  []
 
 
-Package natbib Warning: Citation `Macke' on page 1 undefined on input line 155.
+Package natbib Warning: Citation `Macke' on page 1 undefined on input line 144.
 
 
 
 Package natbib Warning: Citation `Barreiro' on page 1 undefined on input line 1
-55.
+44.
 
 
-Package natbib Warning: Citation `Panzeri' on page 1 undefined on input line 15
-5.
+Package natbib Warning: Citation `Panzeri' on page 1 undefined on input line 14
+4.
 
 [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 159.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 148.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 159.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 148.
 
 
 Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
-<figures/fig_2a_test.pdf, id=23, 243.91125pt x 334.24875pt>
-File: figures/fig_2a_test.pdf Graphic file (type pdf)
+<figures/fig_2a.pdf, id=23, 243.91125pt x 334.24875pt>
+File: figures/fig_2a.pdf Graphic file (type pdf)
 
-<use figures/fig_2a_test.pdf>
-Package pdftex.def Info: figures/fig_2a_test.pdf used on input line 163.
+<use figures/fig_2a.pdf>
+Package pdftex.def Info: figures/fig_2a.pdf used on input line 152.
 (pdftex.def)             Requested size: 243.91064pt x 334.24792pt.
 
-Underfull \hbox (badness 3884) in paragraph at lines 165--165
+Underfull \hbox (badness 3884) in paragraph at lines 154--154
 []\OT1/cmr/m/n/9 FIG. 2: [](a) Pop-u-la-tion spike-count dis-tri-bu-tions for
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 165--165
+Underfull \hbox (badness 1412) in paragraph at lines 154--154
 \OT1/cmr/m/n/9 the EIF model and its second-order ap-prox-i-ma-tion for
  []
 
@@ -449,96 +457,75 @@ Underfull \hbox (badness 1412) in paragraph at lines 165--165
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `Macke' on page 2 undefined on input line 169.
+Package natbib Warning: Citation `Macke' on page 2 undefined on input line 158.
 
 
 
 Package natbib Warning: Citation `cf. Roudi' on page 2 undefined on input line 
-169.
+158.
 
-<figures/LNL_schematic.pdf, id=24, 246.9225pt x 199.1691pt>
-File: figures/LNL_schematic.pdf Graphic file (type pdf)
+<figures/fig_3a.pdf, id=24, 243.91125pt x 198.7425pt>
+File: figures/fig_3a.pdf Graphic file (type pdf)
+ <use figures/fig_3a.pdf>
+Package pdftex.def Info: figures/fig_3a.pdf used on input line 174.
+(pdftex.def)             Requested size: 243.91064pt x 198.742pt.
 
-<use figures/LNL_schematic.pdf>
-Package pdftex.def Info: figures/LNL_schematic.pdf used on input line 185.
-(pdftex.def)             Requested size: 246.92188pt x 199.1686pt.
+<figures/fig_4a.pdf, id=25, 243.91125pt x 334.24875pt>
+File: figures/fig_4a.pdf Graphic file (type pdf)
 
-Overfull \hbox (0.92188pt too wide) in paragraph at lines 185--186
- [][] 
- []
+<use figures/fig_4a.pdf>
+Package pdftex.def Info: figures/fig_4a.pdf used on input line 181.
+(pdftex.def)             Requested size: 243.91064pt x 334.24792pt.
 
-
-LaTeX Warning: File `../../R/fig_3/fig_3a_test.pdf' not found on input line 192
-.
-
-
-./IF_HOC_6_ESB.tex:192: Package pdftex.def Error: File `../../R/fig_3/fig_3a_te
-st.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 ...degraphics{../../R/fig_3/fig_3a_test.pdf}
-                                                  
-? 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<figures/fig_5.pdf, id=26, 487.8225pt x 119.44624pt>
+File: figures/fig_5.pdf Graphic file (type pdf)
+ <use figures/fig_5.pdf>
+Package pdftex.def Info: figures/fig_5.pdf used on input line 188.
+(pdftex.def)             Requested size: 487.8213pt x 119.44594pt.
 
-LaTeX Warning: File `../../R/fig_4/fig_4.pdf' not found on input line 199.
+[2 <./figures/EIF_schematic.pdf> <./figures/fig_2a.pdf>]
 
-
-./IF_HOC_6_ESB.tex:199: Package pdftex.def Error: File `../../R/fig_4/fig_4.pdf
-' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 \includegraphics{../../R/fig_4/fig_4.pdf}
-                                               
-? 
-[2 <./figures/EIF_schematic.pdf> <./figures/fig_2a_test.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 208.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 197.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 208.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 197.
 
 
 Class revtex4 Warning: Deferred float stuck during \clearpage processing.
 
+[3 <./figures/fig_3a.pdf> <./figures/fig_4a.pdf>]
 
-Package natbib Warning: Citation `Amari' on page 3 undefined on input line 268.
-
-
-
-Package natbib Warning: Citation `Macke' on page 3 undefined on input line 268.
+Package natbib Warning: Citation `Amari' on page 4 undefined on input line 257.
 
 
 
-Package natbib Warning: Citation `Yu' on page 3 undefined on input line 268.
-
-[3 <./figures/LNL_schematic.pdf>]
-
-Package natbib Warning: Citation `Amari' on page 4 undefined on input line 270.
+Package natbib Warning: Citation `Macke' on page 4 undefined on input line 257.
 
 
 
-Package natbib Warning: Citation `Macke' on page 4 undefined on input line 270.
+Package natbib Warning: Citation `Yu' on page 4 undefined on input line 257.
+
+
+Package natbib Warning: Citation `Amari' on page 4 undefined on input line 259.
 
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 302--305
+Package natbib Warning: Citation `Macke' on page 4 undefined on input line 259.
+
+
+[4 <./figures/fig_5.pdf>]
+Underfull \hbox (badness 1776) in paragraph at lines 291--294
 []\OT1/cmr/m/it/10 Summary and con-clu-sion: \OT1/cmr/m/n/10 We have shown that
 
  []
 
-[4] (./IF_HOC_6_ESB.bbl) [5]
+(./IF_HOC_6_ESB.bbl) [5]
 
 Package natbib Warning: Citation `Abb-Dayan' on page 6 undefined on input line 
-332.
+321.
 
 
 Package natbib Warning: There were undefined citations.
@@ -547,17 +534,13 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 4667 strings out of 493625
- 59839 string characters out of 3143270
- 148918 words of memory out of 3000000
- 7876 multiletter control sequences out of 15000+200000
- 17142 words of font info for 64 fonts, out of 3000000 for 9000
+ 4672 strings out of 493625
+ 59934 string characters out of 3143270
+ 148966 words of memory out of 3000000
+ 7884 multiletter control sequences out of 15000+200000
+ 16975 words of font info for 63 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,12n,35p,1367b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -580,12 +563,11 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2011/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2011/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2011/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on IF_HOC_6_ESB.pdf (6 pages, 1092488 bytes).
+fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on IF_HOC_6_ESB.pdf (6 pages, 1269524 bytes).
 PDF statistics:
- 1142 PDF objects out of 1200 (max. 8388607)
- 605 compressed objects within 7 object streams
+ 2016 PDF objects out of 2073 (max. 8388607)
+ 1044 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
