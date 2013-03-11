@@ -133,12 +133,13 @@ A ubiquitous situation in neural circuitry is a cell population receiving common
 \tau_m V_i^\prime &= -V_i +\psi(V_i)+I_i(t),\\
 I_i(t) &= \gamma+\sqrt{\sigma^2\tau_m}\big[\sqrt{1-\lambda}\xi_i(t)+\sqrt{\lambda}\xi_c(t)\big] \nonumber,
 \end{align}
-where: $\psi(V_i) =\Delta_T \exp{\left((V_i - V_S)/\Delta_T\right)}$ for the EIF neuron \Ecomment{cite Fourcard-Troume and Abbott-Dayan book}.  \Ecomment{Compress text / ref to caption of Fig 1 for parameters} Here, $\tau_m$ is the membrane time constant which we set as $\tau_m = 5$ms, $\Delta_T$ controls the slope of the action potential initiation, taken to be $3$mV. We use the usual convention of declaring a spike whenever the voltage reaches a certain threshold $V_T$, which we have set at $20$mV. The EIF neuron has an additional ``soft'' threshold, $V_S$ beyond which the voltage diverges to infinity. We set this value as $-53$mV. After a spike the voltage is reset to the rest potential $V_R$, set at $-60$mV, and is held there for the duration of the refractory period $\tau_{\text{ref}}$ of $3$ms.
+where: $\psi(V_i) =\Delta_T \exp{\left((V_i - V_S)/\Delta_T\right)}$ for the EIF neuron \Ecomment{cite Fourcard-Troume and Abbott-Dayan book}.  See figure \ref{schematic} caption for parameter details.
 
 %%%%%%%%%%%%%%%%%%
 \begin{figure}[t!]
-\includegraphics{../../R/fig_1/EIF_schematic}
-\caption{\label{fig:schematic} (a) Exponential integrate-and-fire neurons receiving common input $\xi_c$ and independent inputs $\xi_i$. The voltages of the neurons evolve according to equation [\ref{eifsde}]. Time is divided into bins of temporal resolution $10$ms. A spike occurs when the voltage reaches a threshold of $20$mV. The voltage is then reset to the resting potential $-60$mV and another spike cannot occur during the refractory period of $3$ms. Spikes recorded from each of the EIF neurons in a bin contribute towards the population spike count.  More than one spike occurring from the same neuron within a single bin is treated as a single event. This happens less than $0.4\%$ of the time in our numerical simulations with $\mu=0.1$ and $\rho=0.1$.}
+\includegraphics{figures/EIF_schematic}
+\caption{\label{fig:schematic} (a) Exponential integrate-and-fire neurons receiving common input $\xi_c$ and independent inputs $\xi_i$. The voltages of the neurons evolve according to equation [\ref{eifsde}]. Here, $\tau_m$ is the membrane time constant which we set as $\tau_m = 5$ms, $\Delta_T$ controls the slope of the action potential initiation, taken to be $3$mV. The EIF neuron has a ``soft'' threshold, $V_S$ of $-53$mV. Time is divided into bins of temporal resolution $10$ms. A spike occurs when the voltage reaches a threshold $V_T$ of $20$mV. The voltage is then reset to the resting potential $V_R$ of $-60$mV and another spike cannot occur during the refractory period $\tau_{\text{ref}}$ of $3$ms. Spikes recorded from each of the EIF neurons in a bin contribute towards the population spike count.  More than one spike occurring from the same neuron within a single bin is treated as a single event. This happens less than $0.4\%$ of the time in our numerical simulations with $\mu=0.1$ and $\rho=0.1$.
+}
 \end{figure}
 %%%%%%%%%%%%%%%%%
 
@@ -148,11 +149,10 @@ The spikes are binned into bins of temporal resolution $T_\text{bin}$, which we 
 
 
 
-
 %%%%
 % EIF %
 %%%%
-\paragraph*{Emergence of strong higher-order correlations.}  As in~\cite{Macke,Barreiro,Panzeri,Amarietal03}, we describe the network-wide firing statistics via the distribution of population spike counts (i.e., the number of simultaneously firing cells out of a maximum of $N$).  Fig.~\ref{fig:eifising}a shows that this distribution has a strongly skewed shape.  Do beyond-pairwise correlations plan an important role in determining this structure?  To answer this, we compare the population spike-count distributions for the EIF model and its second-order approximation via a pairwise maximum entropy model: \Ecomment{... give Ising formula here.  I suggest writing it $P_{PME}(k)=...$ in text.  Could also state is equiv. to Ising...)}  For small populations the PME does a satisfactory job. For populations larger than about $N=30$ neurons the PME fails to capture the shape of the distribution. 
+\paragraph*{Emergence of strong higher-order correlations.}  As in~\cite{Macke,Barreiro,Panzeri,Amarietal03}, we describe the network-wide firing statistics via the distribution of population spike counts (i.e., the number of simultaneously firing cells out of a maximum of $N$).  Fig.~\ref{fig:eifising}a shows that this distribution has a strongly skewed shape.  Do beyond-pairwise correlations plan an important role in determining this structure?  To answer this, we compare the population spike-count distributions for the EIF model and its second-order approximation via a pairwise maximum entropy model: $P_{\text{PME}}(K = k) = Z^{-1} \binom{n}{k}\exp{(\alpha k + \beta k^2)}$. For small populations the PME does a satisfactory job. For populations larger than about $N=30$ neurons the PME fails to capture the shape of the distribution. 
 %, approximately resembling instead a population of independent neurons. 
 %for $N=100$ neurons the two distributions have become highly distinct. 
 See figure 2a.
@@ -160,9 +160,9 @@ See figure 2a.
 
 %%%%%%%%%%%%%%
 \begin{figure}[h]
-\includegraphics{../../R/fig_2/fig_2a_test.pdf}
+\includegraphics{figures/fig_2a_test.pdf}
 \caption{\label{fig:eifising} %Correlations in the exponential integrate-and-fire (EIF) model are not well described by a pairwise maximum entropy model. 
-(a) Population spike-count distributions for the EIF model and it's \Ecomment{no apostrophe!} second-order approximation for $8, 32, 64, \text{and } 100$ neurons for $\mu = 0.1$ and $\rho = 0.1$. The distributions are similar for smaller populations and different for large populations. Inset: the same distributions on a log-linear scale. (b) The Jensen-Shannon (JS) divergence between the EIF and the pairwise maximum entropy (PME) model .  We normalized by the $log(N)$, which is a natural growth rate of this measure. (Left) JS divergence for a constant value of $\mu = 0.1$ and different values of $\rho$, and (Right) for constant value of $\rho = 0.1$ and different values of $\mu$ as the population size increases. The JS-divergence grows with increasing correlation $\rho$ and decreasing mean firing rate $\mu$.}
+(a) Population spike-count distributions for the EIF model and its second-order approximation for $8, 32, 64, \text{and } 100$ neurons for $\mu = 0.1$ and $\rho = 0.1$. The distributions are similar for smaller populations and different for large populations. Inset: the same distributions on a log-linear scale. (b) The Jensen-Shannon (JS) divergence between the EIF and the pairwise maximum entropy (PME) model .  We normalized by the $log(N)$, which is a natural growth rate of this measure. (Left) JS divergence for a constant value of $\mu = 0.1$ and different values of $\rho$, and (Right) for constant value of $\rho = 0.1$ and different values of $\mu$ as the population size increases. The JS-divergence grows with increasing correlation $\rho$ and decreasing mean firing rate $\mu$.}
 \end{figure}
 %%%%%%%%%%%%%%
 
@@ -182,7 +182,7 @@ We quantify the difference between the PME and EIF population output distributio
 
 %%%%%%%%%%%%%%%%%%
 \begin{figure}[t!]
-\includegraphics{../../R/fig_1/LNL_schematic}
+\includegraphics{figures/LNL_schematic}
 \caption{\label{fig:schematic2}  (a) The linear filter $A(t)$ and static non-linearity for different values of the correlation coefficient $\rho$. The filter receives a noise amplitude of $\sigma\sqrt{1-\lambda}$. The static-nonlinearity receives a noise amplitude of $\sigma$. (c) The static non-linearity applied to the linear estimate of the firing rate, for $\mu = 0.1$, $\rho = 0.1$. The non-linearity increases the firing rate magnitude and rectifies negative firing rates. The firing rate is used to generate spikes, treating the spike output from repeated presentations of the firing rate as coming from a population of uncoupled neurons to arrive at a population spike count such as in (b).  \Ecomment{In b, add a line for the ``actual" firing rate of the EIF cells. As in Fig. 1 of ostojic paper}}
 \end{figure}
 %%%%%%%%%%%%%%%%%
@@ -292,7 +292,6 @@ The success of the DG model in capturing EIF statistics is significant for two r
 
 \bigskip
 
-\Ecomment{As I am reading it at least I don't find the following convincing -- $10^{-6}$ is seriously tiny!  I say we just remove the following text.} For negative values of common input the DG $L(s)$ function approaches $0$ whereas the LNL function reaches a small but finite value of approximately $10^{-6}$ (this is actually the initial condition in solving the ODE to find the nonlinear transformation $f(s)$ i.e.~$f(0)=10^{-6}$. This explains why the LNL cascade estimates the zero spike probabilities so poorly. \colorbox{BrickRed}{\color{White}{Solving this ODE for $f$ still needs to be checked!}}  
 
 
 \bigskip

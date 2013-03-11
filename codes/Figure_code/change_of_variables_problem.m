@@ -25,8 +25,7 @@ Tspan = -3:step:3;
 
 
 % Initial condition
-% IC = 0;
-IC = -0.014;
+IC = 0;
 
 % Solve the initial condition using ode45
 % We are solving the ODE:
@@ -78,27 +77,27 @@ p1=plot(S_LF,LTildeS,'r');
 % Plot DG
 plot(S_DG,DG,'b')
 hold off
-%%
 % %%
-% % Plot comparison
-figure(1)
-% semilogy(S_DG, P_DG,'r')
-plot(S_DG, P_DG, 'r')
-hold on
-% Compare the change of variables
-% P_DG(s) = P_LF(f(s)) (df / ds)
-plot(S_LF, phi_LF_fs.*abs(dfds))
-hold off
-
-figure(2)
-semilogy(S_DG, P_DG, 'r')
-hold on
-semilogy(S_LF, phi_LF_fs.*abs(dfds))
-% axis([-2 2 1e-3 1])
-hold off
-
-figure(4)
-plot(rhs)
+% % %%
+% % % Plot comparison
+% figure(1)
+% % semilogy(S_DG, P_DG,'r')
+% plot(S_DG, P_DG, 'r')
+% hold on
+% % Compare the change of variables
+% % P_DG(s) = P_LF(f(s)) (df / ds)
+% plot(S_LF, phi_LF_fs.*abs(dfds))
+% hold off
+% 
+% figure(2)
+% semilogy(S_DG, P_DG, 'r')
+% hold on
+% semilogy(S_LF, phi_LF_fs.*abs(dfds))
+% % axis([-2 2 1e-3 1])
+% hold off
+% 
+% figure(4)
+% plot(rhs)
 
 % L_function = [[c';ceif';clf';cising'],[N';N';N';N'],[ones(size(c'));2*ones(size(c'));3*ones(size(c'));4*ones(size(c'))]];
 L_function = [[DG';LTildeS';P_DG'],[S_DG';S_LF';S_DG'],[ones(size(DG'));2*ones(size(DG'));3*ones(size(DG'))]];

@@ -1,23 +1,20 @@
-This is BibTeX, Version 0.99c (Web2C 7.5.6)
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: IF_HOC_6_ESB.aux
+White space in argument---line 2 of file IF_HOC_6_ESB.aux
+ : \citation{shlens,another
+ :                          review}
+I'm skipping whatever remains of this command
 White space in argument---line 3 of file IF_HOC_6_ESB.aux
- : \citation{another
- :                   review}
+ : \citation{pillow,ganmor,kass
+ :                              review,joel review}
 I'm skipping whatever remains of this command
-White space in argument---line 6 of file IF_HOC_6_ESB.aux
- : \citation{kass
- :                review}
-I'm skipping whatever remains of this command
-White space in argument---line 7 of file IF_HOC_6_ESB.aux
- : \citation{joel
- :                review}
-I'm skipping whatever remains of this command
-White space in argument---line 35 of file IF_HOC_6_ESB.aux
- : \citation{cf.
- :               Roudi}
+White space in argument---line 14 of file IF_HOC_6_ESB.aux
+ : \citation{Macke,cf.
+ :                     Roudi}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Yu and yu
----line 42 of file IF_HOC_6_ESB.aux
+---line 24 of file IF_HOC_6_ESB.aux
  : \citation{Yu
  :             }
 I'm skipping whatever remains of this command
@@ -35,51 +32,50 @@ Warning--I didn't find a database entry for "yu"
 Warning--I didn't find a database entry for "shadnew08"
 Warning--I didn't find a database entry for "binpowers"
 Warning--I didn't find a database entry for "tr08"
-Warning--I didn't find a database entry for "Ganmor:2011ct"
 Warning--I didn't find a database entry for "Macke"
 Warning--I didn't find a database entry for "Barreiro"
 Warning--I didn't find a database entry for "Panzeri"
 Warning--I didn't find a database entry for "Amari"
 Warning--I didn't find a database entry for "Abb-Dayan"
-You've used 3 entries,
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            545 strings with 4801 characters,
-and the built_in function-call counts, 1245 in all, are:
-= -- 117
-> -- 74
+            535 strings with 4541 characters,
+and the built_in function-call counts, 750 in all, are:
+= -- 70
+> -- 41
 < -- 0
-+ -- 29
-- -- 26
-* -- 116
-:= -- 217
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 22
++ -- 16
+- -- 14
+* -- 67
+:= -- 134
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 33
-empty$ -- 84
-format.name$ -- 26
-if$ -- 242
+cite$ -- 2
+duplicate$ -- 22
+empty$ -- 53
+format.name$ -- 14
+if$ -- 146
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 16
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 9
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 11
 quote$ -- 0
-skip$ -- 21
+skip$ -- 14
 stack$ -- 0
-substring$ -- 92
-swap$ -- 3
+substring$ -- 50
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 8
 warning$ -- 0
-while$ -- 11
-width$ -- 4
-write$ -- 35
-(There were 5 error messages)
+while$ -- 7
+width$ -- 3
+write$ -- 24
+(There were 4 error messages)

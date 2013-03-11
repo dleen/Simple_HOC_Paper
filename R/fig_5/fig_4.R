@@ -6,9 +6,8 @@ library(grid) # Multiple plots on one figure
 rm(list = ls())
 theme_set(theme_bw(7))
 
-# fig_4 <- readMat("/Users/dleen/Dropbox/Research/Simple_HOC_draft/codes/Figure_code/L_func_comp.mat")
 fig_4b <- readMat(paste("/Users/dleen/Dropbox/Research/",
-                        "Simple_HOC_draft/codes/Figure_code/figures_complete/fig_4b/",
+                        "Simple_HOC_draft/codes/Figure_code/figures_complete/fig_5b/",
                         "fig_4b_R_NEW.mat", sep=""))
 L_comp<-fig_4b$L.function
 
@@ -16,8 +15,8 @@ L_s = L_comp[,1]
 s_var = L_comp[,2]
 Type = L_comp[,3]
 
-L_s_short = L_comp[6603:7203,1]
-s_var_short = L_comp[6603:7203,2]
+L_s_short = L_comp[1203:1803,1]
+s_var_short = L_comp[1203:1803,2]
 
 Type[Type == 1] <- "A"
 Type[Type == 2] <- "B"
@@ -27,10 +26,12 @@ fig_data<-data.frame(L_s,s_var,Type)
 fig_data_1<-subset(fig_data,Type != "C")
 fig_data_2<-subset(fig_data,Type == "C")
 
-pv_b <- ggplot(fig_data_1,aes(s_var,L_s))
+pv_b <- ggplot(fig_data_1,aes(s_var,L_s,group=Type))
 pv_b <- pv_b+geom_line(aes(color=Type,group=Type),size=0.3)
 
 pv_b <- pv_b + scale_color_brewer("",palette="Paired",labels = c("DG","LNL"))
+
+
 pv_b <- pv_b + xlab("s") + ylab(expression("L(s)"))
 pv_b <- pv_b + theme(legend.key = element_blank())
 pv_b <- pv_b + scale_x_continuous(limits = c(-2,2.75))
@@ -41,8 +42,9 @@ pv_b <- pv_b + theme(panel.background = element_rect(colour = NA)) +
   theme(panel.grid.major = element_blank()) + 
   theme(axis.line = element_line())
 	
-pv_b <- pv_b + theme(plot.margin = unit(c(0.05,0,0,-0.2), "cm"))	
-pv_b <- pv_b + theme(legend.position = c(0.7, 0.85)) + 
+pv_b <- pv_b + theme(plot.margin = unit(c(0.1,0,0,-0.2), "cm"))	
+pv_b <- pv_b + theme(legend.position = c(0.7, 0.85),
+                     legend.title=element_blank()) + 
   theme(legend.text = element_text(size = 9), 
         legend.key.width = unit(0.5,"cm"), 
         legend.key.height = unit(0.25, "cm"))
@@ -52,8 +54,8 @@ pv_b <- pv_b + theme(axis.title.y = element_text(angle = 90,
                                                  vjust = 0.6, size = 8))
 pv_b <- pv_b + theme(axis.title.x = element_text(size = 8, vjust=0.6))
 
-pv_b <- pv_b + geom_area(data=fig_data_2,aes(s_var_short,L_s_short,fill=Type,alpha=0.1))
-pv_b <- pv_b + scale_fill_manual(values="gray60")
+pv_b <- pv_b + geom_area(data=fig_data_2,aes(s_var_short,L_s_short,fill=Type),alpha=0.1)
+pv_b <- pv_b + scale_fill_manual(values="gray60", guide="none")
 
 ################
 ################
