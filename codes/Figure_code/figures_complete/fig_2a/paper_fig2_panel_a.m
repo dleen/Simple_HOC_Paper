@@ -119,5 +119,6 @@ for N=N_range
     Q_list = [Q_list; Q];
 end
 
+% Easy format for plotting in R.
 fig_2a_R =...
  [[P_list;Q_list],[N_size;N_size],[N_list;N_list],[Model_EIF;Model_Ising]];
