@@ -61,6 +61,7 @@ for N=N_range
     end
 
     % An initial guess at the parameters to be minimized:
+    % bigger explanation needed
     param_list_init = [0;0];
 
 
@@ -70,6 +71,7 @@ for N=N_range
     % p(x_1) p(x_2) ... p(x_N) mu rho % trial number 2
     P = mean(PP,1)';
 
+    % plotting thing
     P_list = [P_list; P];
     
     % Calculate the means and moments i.e. the quantities
