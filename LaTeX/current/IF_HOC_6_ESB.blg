@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2011)
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: IF_HOC_6_ESB.aux
 White space in argument---line 2 of file IF_HOC_6_ESB.aux
@@ -9,17 +9,21 @@ White space in argument---line 3 of file IF_HOC_6_ESB.aux
  : \citation{pillow,ganmor,kass
  :                              review,joel review}
 I'm skipping whatever remains of this command
-White space in argument---line 15 of file IF_HOC_6_ESB.aux
+White space in argument---line 17 of file IF_HOC_6_ESB.aux
  : \citation{Macke,cf.
  :                     Roudi}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Yu and yu
----line 27 of file IF_HOC_6_ESB.aux
+---line 31 of file IF_HOC_6_ESB.aux
  : \citation{Yu
  :             }
 I'm skipping whatever remains of this command
 The style file: plain.bst
 Database file #1: HOC_bib.bib
+Repeated entry---line 1213 of file HOC_bib.bib
+ : @article{Ostojic:2011
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "shlens"
 Warning--I didn't find a database entry for "pillow"
 Warning--I didn't find a database entry for "ganmor"
@@ -37,47 +41,50 @@ Warning--I didn't find a database entry for "Abbott-Dayan"
 Warning--I didn't find a database entry for "Macke"
 Warning--I didn't find a database entry for "Barreiro"
 Warning--I didn't find a database entry for "Panzeri"
+Warning--I didn't find a database entry for "Macke2011"
+Warning--I didn't find a database entry for "Ostoijic"
+Warning--I didn't find a database entry for "Richardson"
 Warning--I didn't find a database entry for "Amari"
 Warning--I didn't find a database entry for "Abb-Dayan"
-You've used 2 entries,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            539 strings with 4595 characters,
-and the built_in function-call counts, 750 in all, are:
-= -- 70
-> -- 41
+            553 strings with 4773 characters,
+and the built_in function-call counts, 1081 in all, are:
+= -- 102
+> -- 54
 < -- 0
-+ -- 16
-- -- 14
-* -- 67
-:= -- 134
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 13
++ -- 21
+- -- 18
+* -- 95
+:= -- 189
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 22
-empty$ -- 53
-format.name$ -- 14
-if$ -- 146
+cite$ -- 3
+duplicate$ -- 33
+empty$ -- 81
+format.name$ -- 18
+if$ -- 214
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 9
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 12
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 15
 quote$ -- 0
-skip$ -- 14
+skip$ -- 22
 stack$ -- 0
-substring$ -- 50
-swap$ -- 2
+substring$ -- 79
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 12
 warning$ -- 0
-while$ -- 7
-width$ -- 3
-write$ -- 24
-(There were 4 error messages)
+while$ -- 10
+width$ -- 4
+write$ -- 35
+(There were 5 error messages)

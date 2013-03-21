@@ -1,0 +1,1161 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.7)  1 JUN 2012 23:06
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**draft.tex
+(./draft.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/02/06 v6.82o Hypertext links for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/02/06 v6.82o Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count89
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4046.
+Package hyperref Info: Link nesting OFF on input line 4051.
+Package hyperref Info: Hyper index ON on input line 4054.
+Package hyperref Info: Plain pages OFF on input line 4061.
+Package hyperref Info: Backreferencing OFF on input line 4066.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4284.
+\c@Hy@tempcnt=\count90
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4637.
+\Fld@menulength=\count91
+\Field@Width=\dimen104
+\Fld@charsize=\dimen105
+Package hyperref Info: Hyper figures OFF on input line 5757.
+Package hyperref Info: Link nesting OFF on input line 5762.
+Package hyperref Info: Hyper index ON on input line 5765.
+Package hyperref Info: backreferencing OFF on input line 5772.
+Package hyperref Info: Link coloring OFF on input line 5777.
+Package hyperref Info: Link coloring with OCG OFF on input line 5782.
+Package hyperref Info: PDF/A mode OFF on input line 5787.
+LaTeX Info: Redefining \ref on input line 5827.
+LaTeX Info: Redefining \pageref on input line 5831.
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/02/06 v6.82o Hyperref driver for pdfTeX
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count97
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen108
+\captionmargin@=\dimen109
+\captionwidth=\dimen110
+\caption@indent=\dimen111
+\caption@parindent=\dimen112
+\caption@hangindent=\dimen113
+)
+\c@ContinuedFloat=\count98
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count99
+\c@subtable=\count100
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen114
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen115
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count101
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count102
+\leftroot@=\count103
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count104
+\DOTSCASE@=\count105
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
+\dotsspace@=\muskip11
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
+\tag@help=\toks16
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
+\andhelp@=\toks17
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count113
+\rotFPtop=\skip47
+\rotFPbot=\skip48
+\rot@float@box=\box28
+\rot@mess@toks=\toks20
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count114
+\float@exts=\toks21
+\float@box=\box29
+\@float@everytoks=\toks22
+\@floatcapt=\box30
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(./draft.aux
+
+LaTeX Warning: Label `fig3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig3' multiply defined.
+
+
+LaTeX Warning: Label `fig4' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig4' multiply defined.
+
+
+LaTeX Warning: Label `fig5' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig5' multiply defined.
+
+
+LaTeX Warning: Label `fig6' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig6' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig12' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig12' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig12' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig12' multiply defined.
+
+
+LaTeX Warning: Label `figdgeif' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig12' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig12' multiply defined.
+
+
+LaTeX Warning: Label `figdgeif' multiply defined.
+
+
+LaTeX Warning: Label `figdgeif' multiply defined.
+
+
+LaTeX Warning: Label `figdgeif' multiply defined.
+
+
+LaTeX Warning: Label `figdgeif' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig12' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig12' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig12' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig12' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+
+LaTeX Warning: Label `fig11' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig11' multiply defined.
+
+)
+\openout1 = `draft.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 25.
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count115
+)
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
+
+(./draft.out) (./draft.out)
+\@outlinefile=\write3
+\openout3 = `draft.out'.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen123
+\scratchbox=\box32
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen124
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a.eps>
+(epstopdf)                    date: 2012-05-11 12:56:17
+(epstopdf)                    size: 23802 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2012-05-11 12:58:48
+(epstopdf)                    size: 9906 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a-e
+ps-converted-to.pdf ../Figures/DG/DG_Macke_2a.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a-eps-converted-to.pdf, id=65, 562.1pt x 421.575pt>
+File: ../Figures/DG/DG_Macke_2a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../Figures/DG/DG_Macke_2a-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a-eps-converted-to.pdf used on
+ input line 91.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a.eps>
+(epstopdf)                    date: 2012-05-11 13:05:27
+(epstopdf)                    size: 11641 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2012-05-11 13:06:16
+(epstopdf)                    size: 9093 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a-eps-converted-to.pdf, id=66, 562.1pt x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a-eps-converted-to.pdf used 
+on input line 97.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a_semilog.eps>
+(epstopdf)                    date: 2012-05-11 13:01:27
+(epstopdf)                    size: 13885 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a_semilog-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2012-05-11 13:01:59
+(epstopdf)                    size: 10250 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a_s
+emilog-eps-converted-to.pdf ../Figures/DG/DG_Macke_2a_semilog.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a_semilog-eps-converted-to.pdf, id=67, 562.1pt x 421.5
+75pt>
+File: ../Figures/DG/DG_Macke_2a_semilog-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use ../Figures/DG/DG_Macke_2a_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a_semilog-eps-converted-to.pdf
+ used on input line 103.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_semilog.eps>
+(epstopdf)                    date: 2012-05-11 13:04:57
+(epstopdf)                    size: 15552 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_semilog-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2012-05-11 13:06:17
+(epstopdf)                    size: 9822 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_semilog-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_semilog.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_semilog-eps-converted-to.pdf, id=68, 562.1pt x 421
+.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_semilog-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ../Figures/EIF/EIF_Macke_2a_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_semilog-eps-converted-to.p
+df used on input line 109.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 89--113
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 89--113
+[]$ $[]$ 
+ []
+
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_100ms.eps>
+(epstopdf)                    date: 2012-05-11 20:26:33
+(epstopdf)                    size: 11828 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_100ms-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2012-05-11 20:29:40
+(epstopdf)                    size: 9572 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_100ms-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_100ms.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_100ms-eps-converted-to.pdf, id=69, 562.1pt x 421.5
+75pt>
+File: ../Figures/EIF/EIF_Macke_2a_100ms-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use ../Figures/EIF/EIF_Macke_2a_100ms-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_100ms-eps-converted-to.pdf
+ used on input line 122.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_100ms_semilog.
+eps>
+(epstopdf)                    date: 2012-05-11 20:27:41
+(epstopdf)                    size: 14264 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_100ms_semilog-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 20:29:40
+(epstopdf)                    size: 10215 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_100ms_semilog-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_100ms_semilog.e
+ps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_100ms_semilog-eps-converted-to.pdf, id=70, 562.1pt
+ x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_100ms_semilog-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a_100ms_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_100ms_semilog-eps-converte
+d-to.pdf used on input line 128.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_100ms_gamma.ep
+s>
+(epstopdf)                    date: 2012-05-11 21:29:43
+(epstopdf)                    size: 14260 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_100ms_gamma-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 21:32:38
+(epstopdf)                    size: 10370 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_100ms_gamma-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_100ms_gamma.eps>
+(epstopdf)             \includegraphics on input line 134.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_100ms_gamma-eps-converted-to.pdf, id=71, 562.1pt x
+ 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_100ms_gamma-eps-converted-to.pdf Graphic file
+ (type pdf)
+ <use ../Figures/EIF/EIF_Macke_2a_100ms_gamma-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_100ms_gamma-eps-converted-
+to.pdf used on input line 134.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_100ms_gamma_se
+milog.eps>
+(epstopdf)                    date: 2012-05-11 21:30:50
+(epstopdf)                    size: 14527 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_100ms_gamma_se
+milog-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 21:32:38
+(epstopdf)                    size: 10861 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_100ms_gamma_semilog-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_100ms_gam
+ma_semilog.eps>
+(epstopdf)             \includegraphics on input line 140.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_100ms_gamma_semilog-eps-converted-to.pdf, id=72, 5
+62.1pt x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_100ms_gamma_semilog-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a_100ms_gamma_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_100ms_gamma_semilog-eps-co
+nverted-to.pdf used on input line 140.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 120--145
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 120--145
+[]$ $[]$ 
+ []
+
+[3 <../Figures/DG/DG_Macke_2a-eps-converted-to.pdf> <../Figures/EIF/EIF_Macke_2
+a-eps-converted-to.pdf> <../Figures/DG/DG_Macke_2a_semilog-eps-converted-to.pdf
+> <../Figures/EIF/EIF_Macke_2a_semilog-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../Figures/EIF/DG_EIF_Macke_2a_100ms_semil
+og.eps>
+(epstopdf)                    date: 2012-05-11 20:34:36
+(epstopdf)                    size: 15847 bytes
+(epstopdf)             Output file: <../Figures/EIF/DG_EIF_Macke_2a_100ms_semil
+og-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 20:34:40
+(epstopdf)                    size: 11713 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/DG_EIF_Macke
+_2a_100ms_semilog-eps-converted-to.pdf ../Figures/EIF/DG_EIF_Macke_2a_100ms_sem
+ilog.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/DG_EIF_Macke_2a_100ms_semilog-eps-converted-to.pdf, id=123, 562
+.1pt x 421.575pt>
+File: ../Figures/EIF/DG_EIF_Macke_2a_100ms_semilog-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use ../Figures/EIF/DG_EIF_Macke_2a_100ms_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/DG_EIF_Macke_2a_100ms_semilog-eps-conve
+rted-to.pdf used on input line 153.
+(pdftex.def)             Requested size: 336.05533pt x 252.03993pt.
+
+[4 <../Figures/EIF/EIF_Macke_2a_100ms-eps-converted-to.pdf> <../Figures/EIF/EIF
+_Macke_2a_100ms_semilog-eps-converted-to.pdf> <../Figures/EIF/EIF_Macke_2a_100m
+s_gamma-eps-converted-to.pdf> <../Figures/EIF/EIF_Macke_2a_100ms_gamma_semilog-
+eps-converted-to.pdf>] [5 <../Figures/EIF/DG_EIF_Macke_2a_100ms_semilog-eps-con
+verted-to.pdf>]
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a_mu_02.eps>
+(epstopdf)                    date: 2012-05-11 14:22:32
+(epstopdf)                    size: 12117 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a_mu_02-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2012-05-11 14:23:31
+(epstopdf)                    size: 10117 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a_m
+u_02-eps-converted-to.pdf ../Figures/DG/DG_Macke_2a_mu_02.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a_mu_02-eps-converted-to.pdf, id=183, 562.1pt x 421.57
+5pt>
+File: ../Figures/DG/DG_Macke_2a_mu_02-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ../Figures/DG/DG_Macke_2a_mu_02-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a_mu_02-eps-converted-to.pdf u
+sed on input line 168.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_02.eps>
+(epstopdf)                    date: 2012-05-11 14:21:18
+(epstopdf)                    size: 12175 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_02-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2012-05-11 14:23:31
+(epstopdf)                    size: 9628 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_02-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_02.eps>
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_02-eps-converted-to.pdf, id=184, 562.1pt x 421.
+575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_02-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use ../Figures/EIF/EIF_Macke_2a_mu_02-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_02-eps-converted-to.pdf
+ used on input line 174.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a_mu_02_semilog.ep
+s>
+(epstopdf)                    date: 2012-05-11 14:22:57
+(epstopdf)                    size: 14234 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a_mu_02_semilog-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 14:29:38
+(epstopdf)                    size: 10581 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a_m
+u_02_semilog-eps-converted-to.pdf ../Figures/DG/DG_Macke_2a_mu_02_semilog.eps>
+(epstopdf)             \includegraphics on input line 180.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a_mu_02_semilog-eps-converted-to.pdf, id=185, 562.1pt 
+x 421.575pt>
+File: ../Figures/DG/DG_Macke_2a_mu_02_semilog-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ../Figures/DG/DG_Macke_2a_mu_02_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a_mu_02_semilog-eps-converted-
+to.pdf used on input line 180.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_02_semilog.
+eps>
+(epstopdf)                    date: 2012-05-11 14:20:48
+(epstopdf)                    size: 14353 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_02_semilog-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 14:29:38
+(epstopdf)                    size: 10131 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_02_semilog-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_02_semilog.e
+ps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_02_semilog-eps-converted-to.pdf, id=186, 562.1p
+t x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_02_semilog-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a_mu_02_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_02_semilog-eps-converte
+d-to.pdf used on input line 186.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 166--190
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 166--190
+[]$ $[]$ 
+ []
+
+[6 <../Figures/DG/DG_Macke_2a_mu_02-eps-converted-to.pdf> <../Figures/EIF/EIF_M
+acke_2a_mu_02-eps-converted-to.pdf> <../Figures/DG/DG_Macke_2a_mu_02_semilog-ep
+s-converted-to.pdf> <../Figures/EIF/EIF_Macke_2a_mu_02_semilog-eps-converted-to
+.pdf>]
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a_mu_03.eps>
+(epstopdf)                    date: 2012-05-11 15:12:22
+(epstopdf)                    size: 12241 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a_mu_03-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2012-05-11 15:13:03
+(epstopdf)                    size: 10238 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a_m
+u_03-eps-converted-to.pdf ../Figures/DG/DG_Macke_2a_mu_03.eps>
+(epstopdf)             \includegraphics on input line 203.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a_mu_03-eps-converted-to.pdf, id=230, 562.1pt x 421.57
+5pt>
+File: ../Figures/DG/DG_Macke_2a_mu_03-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ../Figures/DG/DG_Macke_2a_mu_03-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a_mu_03-eps-converted-to.pdf u
+sed on input line 203.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_03.eps>
+(epstopdf)                    date: 2012-05-11 15:18:54
+(epstopdf)                    size: 12295 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_03-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2012-05-11 15:18:58
+(epstopdf)                    size: 9741 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_03-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_03.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_03-eps-converted-to.pdf, id=231, 562.1pt x 421.
+575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_03-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use ../Figures/EIF/EIF_Macke_2a_mu_03-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_03-eps-converted-to.pdf
+ used on input line 209.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a_mu_03_semilog.ep
+s>
+(epstopdf)                    date: 2012-05-11 15:11:37
+(epstopdf)                    size: 14352 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a_mu_03_semilog-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 15:13:03
+(epstopdf)                    size: 10677 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a_m
+u_03_semilog-eps-converted-to.pdf ../Figures/DG/DG_Macke_2a_mu_03_semilog.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a_mu_03_semilog-eps-converted-to.pdf, id=232, 562.1pt 
+x 421.575pt>
+File: ../Figures/DG/DG_Macke_2a_mu_03_semilog-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ../Figures/DG/DG_Macke_2a_mu_03_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a_mu_03_semilog-eps-converted-
+to.pdf used on input line 215.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_03_semilog.
+eps>
+(epstopdf)                    date: 2012-05-11 15:18:22
+(epstopdf)                    size: 14453 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_03_semilog-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 15:18:58
+(epstopdf)                    size: 10199 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_03_semilog-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_03_semilog.e
+ps>
+(epstopdf)             \includegraphics on input line 221.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_03_semilog-eps-converted-to.pdf, id=233, 562.1p
+t x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_03_semilog-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a_mu_03_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_03_semilog-eps-converte
+d-to.pdf used on input line 221.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 201--225
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 201--225
+[]$ $[]$ 
+ []
+
+Package epstopdf Info: Source file: <../Figures/EIF/DG_EIF_Macke_2a_mu_03_100ms
+_semilog.eps>
+(epstopdf)                    date: 2012-05-11 23:01:00
+(epstopdf)                    size: 18271 bytes
+(epstopdf)             Output file: <../Figures/EIF/DG_EIF_Macke_2a_mu_03_100ms
+_semilog-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-11 23:01:49
+(epstopdf)                    size: 12558 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/DG_EIF_Macke
+_2a_mu_03_100ms_semilog-eps-converted-to.pdf ../Figures/EIF/DG_EIF_Macke_2a_mu_
+03_100ms_semilog.eps>
+(epstopdf)             \includegraphics on input line 233.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/DG_EIF_Macke_2a_mu_03_100ms_semilog-eps-converted-to.pdf, id=23
+4, 562.1pt x 421.575pt>
+File: ../Figures/EIF/DG_EIF_Macke_2a_mu_03_100ms_semilog-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use ../Figures/EIF/DG_EIF_Macke_2a_mu_03_100ms_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/DG_EIF_Macke_2a_mu_03_100ms_semilog-eps
+-converted-to.pdf used on input line 233.
+(pdftex.def)             Requested size: 336.05533pt x 252.03993pt.
+
+[7 <../Figures/DG/DG_Macke_2a_mu_03-eps-converted-to.pdf> <../Figures/EIF/EIF_M
+acke_2a_mu_03-eps-converted-to.pdf> <../Figures/DG/DG_Macke_2a_mu_03_semilog-ep
+s-converted-to.pdf> <../Figures/EIF/EIF_Macke_2a_mu_03_semilog-eps-converted-to
+.pdf>] [8 <../Figures/EIF/DG_EIF_Macke_2a_mu_03_100ms_semilog-eps-converted-to.
+pdf>]
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a_mu_05.eps>
+(epstopdf)                    date: 2012-05-12 00:26:09
+(epstopdf)                    size: 12271 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a_mu_05-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2012-05-12 15:11:43
+(epstopdf)                    size: 10296 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a_m
+u_05-eps-converted-to.pdf ../Figures/DG/DG_Macke_2a_mu_05.eps>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a_mu_05-eps-converted-to.pdf, id=295, 562.1pt x 421.57
+5pt>
+File: ../Figures/DG/DG_Macke_2a_mu_05-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ../Figures/DG/DG_Macke_2a_mu_05-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a_mu_05-eps-converted-to.pdf u
+sed on input line 248.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_05.eps>
+(epstopdf)                    date: 2012-05-12 00:27:21
+(epstopdf)                    size: 12292 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_05-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2012-05-12 15:15:41
+(epstopdf)                    size: 9793 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_05-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_05.eps>
+(epstopdf)             \includegraphics on input line 254.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_05-eps-converted-to.pdf, id=296, 562.1pt x 421.
+575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_05-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use ../Figures/EIF/EIF_Macke_2a_mu_05-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_05-eps-converted-to.pdf
+ used on input line 254.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/DG/DG_Macke_2a_mu_05_semilog.ep
+s>
+(epstopdf)                    date: 2012-05-12 00:25:31
+(epstopdf)                    size: 14513 bytes
+(epstopdf)             Output file: <../Figures/DG/DG_Macke_2a_mu_05_semilog-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2012-05-12 15:14:47
+(epstopdf)                    size: 10776 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/DG/DG_Macke_2a_m
+u_05_semilog-eps-converted-to.pdf ../Figures/DG/DG_Macke_2a_mu_05_semilog.eps>
+(epstopdf)             \includegraphics on input line 260.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/DG/DG_Macke_2a_mu_05_semilog-eps-converted-to.pdf, id=297, 562.1pt 
+x 421.575pt>
+File: ../Figures/DG/DG_Macke_2a_mu_05_semilog-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ../Figures/DG/DG_Macke_2a_mu_05_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/DG/DG_Macke_2a_mu_05_semilog-eps-converted-
+to.pdf used on input line 260.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_05_semilog.
+eps>
+(epstopdf)                    date: 2012-05-12 00:26:41
+(epstopdf)                    size: 14569 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_05_semilog-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-12 15:11:43
+(epstopdf)                    size: 10299 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_05_semilog-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_05_semilog.e
+ps>
+(epstopdf)             \includegraphics on input line 266.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_05_semilog-eps-converted-to.pdf, id=298, 562.1p
+t x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_05_semilog-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a_mu_05_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_05_semilog-eps-converte
+d-to.pdf used on input line 266.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 246--270
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 246--270
+[]$ $[]$ 
+ []
+
+Package epstopdf Info: Source file: <../Figures/EIF/DG_EIF_Macke_2a_mu_05_semil
+og.eps>
+(epstopdf)                    date: 2012-05-12 15:20:12
+(epstopdf)                    size: 16597 bytes
+(epstopdf)             Output file: <../Figures/EIF/DG_EIF_Macke_2a_mu_05_semil
+og-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-12 15:20:58
+(epstopdf)                    size: 12181 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/DG_EIF_Macke
+_2a_mu_05_semilog-eps-converted-to.pdf ../Figures/EIF/DG_EIF_Macke_2a_mu_05_sem
+ilog.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/DG_EIF_Macke_2a_mu_05_semilog-eps-converted-to.pdf, id=299, 562
+.1pt x 421.575pt>
+File: ../Figures/EIF/DG_EIF_Macke_2a_mu_05_semilog-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use ../Figures/EIF/DG_EIF_Macke_2a_mu_05_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/DG_EIF_Macke_2a_mu_05_semilog-eps-conve
+rted-to.pdf used on input line 278.
+(pdftex.def)             Requested size: 336.05533pt x 252.03993pt.
+
+[9 <../Figures/DG/DG_Macke_2a_mu_05-eps-converted-to.pdf> <../Figures/EIF/EIF_M
+acke_2a_mu_05-eps-converted-to.pdf> <../Figures/DG/DG_Macke_2a_mu_05_semilog-ep
+s-converted-to.pdf> <../Figures/EIF/EIF_Macke_2a_mu_05_semilog-eps-converted-to
+.pdf>] [10 <../Figures/EIF/DG_EIF_Macke_2a_mu_05_semilog-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_05_100ms_ga
+mma.eps>
+(epstopdf)                    date: 2012-05-12 16:07:17
+(epstopdf)                    size: 12539 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_05_100ms_ga
+mma-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-12 16:11:48
+(epstopdf)                    size: 10636 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_05_100ms_gamma-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_05_100ms
+_gamma.eps>
+(epstopdf)             \includegraphics on input line 293.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma-eps-converted-to.pdf, id=358, 56
+2.1pt x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma-eps-conv
+erted-to.pdf used on input line 293.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+Package epstopdf Info: Source file: <../Figures/EIF/EIF_Macke_2a_mu_05_100ms_ga
+mma_semilog.eps>
+(epstopdf)                    date: 2012-05-12 16:08:02
+(epstopdf)                    size: 14769 bytes
+(epstopdf)             Output file: <../Figures/EIF/EIF_Macke_2a_mu_05_100ms_ga
+mma_semilog-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-12 16:11:48
+(epstopdf)                    size: 11136 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/EIF_Macke_2a
+_mu_05_100ms_gamma_semilog-eps-converted-to.pdf ../Figures/EIF/EIF_Macke_2a_mu_
+05_100ms_gamma_semilog.eps>
+(epstopdf)             \includegraphics on input line 299.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma_semilog-eps-converted-to.pdf, id
+=359, 562.1pt x 421.575pt>
+File: ../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma_semilog-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use ../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma_semilog-eps-converted-to.pdf
+>
+Package pdftex.def Info: ../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma_semilog-
+eps-converted-to.pdf used on input line 299.
+(pdftex.def)             Requested size: 224.03688pt x 168.02876pt.
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 291--303
+[]$[]$ $[]$ 
+ []
+
+Package epstopdf Info: Source file: <../Figures/EIF/DG_EIF_Macke_2a_mu_05_100ms
+_semilog.eps>
+(epstopdf)                    date: 2012-05-12 16:09:23
+(epstopdf)                    size: 16760 bytes
+(epstopdf)             Output file: <../Figures/EIF/DG_EIF_Macke_2a_mu_05_100ms
+_semilog-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-12 16:12:45
+(epstopdf)                    size: 12321 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/DG_EIF_Macke
+_2a_mu_05_100ms_semilog-eps-converted-to.pdf ../Figures/EIF/DG_EIF_Macke_2a_mu_
+05_100ms_semilog.eps>
+(epstopdf)             \includegraphics on input line 311.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/DG_EIF_Macke_2a_mu_05_100ms_semilog-eps-converted-to.pdf, id=36
+0, 562.1pt x 421.575pt>
+File: ../Figures/EIF/DG_EIF_Macke_2a_mu_05_100ms_semilog-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use ../Figures/EIF/DG_EIF_Macke_2a_mu_05_100ms_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/DG_EIF_Macke_2a_mu_05_100ms_semilog-eps
+-converted-to.pdf used on input line 311.
+(pdftex.def)             Requested size: 336.05533pt x 252.03993pt.
+
+[11 <../Figures/EIF/EIF_Macke_2a_mu_05_100ms_gamma-eps-converted-to.pdf> <../Fi
+gures/EIF/EIF_Macke_2a_mu_05_100ms_gamma_semilog-eps-converted-to.pdf> <../Figu
+res/EIF/DG_EIF_Macke_2a_mu_05_100ms_semilog-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <../Figures/EIF/DG_EIF_Macke_2a_mu_01_1ms_s
+emilog.eps>
+(epstopdf)                    date: 2012-05-13 22:04:11
+(epstopdf)                    size: 17266 bytes
+(epstopdf)             Output file: <../Figures/EIF/DG_EIF_Macke_2a_mu_01_1ms_s
+emilog-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-05-13 22:53:33
+(epstopdf)                    size: 11824 bytes
+(epstopdf)             Command: <epstopdf --outfile=../Figures/EIF/DG_EIF_Macke
+_2a_mu_01_1ms_semilog-eps-converted-to.pdf ../Figures/EIF/DG_EIF_Macke_2a_mu_01
+_1ms_semilog.eps>
+(epstopdf)             \includegraphics on input line 325.
+Package epstopdf Info: Output file is already uptodate.
+
+<../Figures/EIF/DG_EIF_Macke_2a_mu_01_1ms_semilog-eps-converted-to.pdf, id=396,
+ 562.1pt x 421.575pt>
+File: ../Figures/EIF/DG_EIF_Macke_2a_mu_01_1ms_semilog-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use ../Figures/EIF/DG_EIF_Macke_2a_mu_01_1ms_semilog-eps-converted-to.pdf>
+Package pdftex.def Info: ../Figures/EIF/DG_EIF_Macke_2a_mu_01_1ms_semilog-eps-c
+onverted-to.pdf used on input line 325.
+(pdftex.def)             Requested size: 336.05533pt x 252.03993pt.
+Package epstopdf Info: Source file: <../Figures/EIF/DG_EIF_Macke_2a_mu_02_1ms_s
+emilog.eps>
+(epstopdf)                    date: 2012-05-13 22:41:57
+(epstopdf)                    size: 16261 bytes
+(epstopdf)             Output file: <../Figures/EIF/DG_EIF_Macke_2a_mu_02_1ms_s
+emilog-eps-converted-to.pdf>
+(epstopdf)                  
